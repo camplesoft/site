@@ -168,6 +168,7 @@ body {
   }
 
   & .services {
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,7 +201,7 @@ body {
       align-content: center;
       justify-content: center;
 
-      grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+      grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
       grid-auto-rows: 150px;
 
       & .card {
