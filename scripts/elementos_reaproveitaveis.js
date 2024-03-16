@@ -629,8 +629,8 @@ class Footer extends HTMLElement {
 
       <div class="redes-sociais">
         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-solid fa-phone"></i></a>
+        <a href="https://www.instagram.com/yucane_marketing/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="tel:+351933522230"><i class="fa-solid fa-phone"></i></a>
         <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
       </div>
     `;
@@ -639,7 +639,7 @@ class Footer extends HTMLElement {
 
     this.footer.innerHTML += `
       <div class="foot-footer">
-        <p>2024 <a href="camplesoft@gmail.com">CampleSoft</a> | Todos direitos reservados</p>
+        <p>2024 <a href="cod">mariomakondambuta</a> | Todos direitos reservados</p>
       </div>
     `;
 
