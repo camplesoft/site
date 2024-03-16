@@ -628,10 +628,10 @@ class Footer extends HTMLElement {
       </div>
 
       <div class="redes-sociais">
-        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/yucane_marketing/"><i class="fa-brands fa-instagram"></i></a>
+        <a target="_blank" href="mailto:yucanemarketing@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        <a target="_blank" href="https://www.instagram.com/yucane_marketing/"><i class="fa-brands fa-instagram"></i></a>
         <a href="tel:+351933522230"><i class="fa-solid fa-phone"></i></a>
-        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a target="_blank" href="https://web.whatsapp.com/send?phone=+351933522230"><i class="fa-brands fa-whatsapp"></i></a>
       </div>
     `;
 
