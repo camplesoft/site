@@ -60,7 +60,6 @@ const style = `
 * {
     padding: 0;
     margin: 0;
-    color: white;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
@@ -163,10 +162,12 @@ header {
   }
 
   & h1 {
-    text-align: center;
+    padding-left: 20px;
+    justify-self: start;
+    text-align: right;
     word-wrap: break-word;
     font-size: 0.9rem;
-    font-weight: 700;
+    font-weight: 600;
   }
 
   & i {
@@ -180,6 +181,7 @@ header {
   }
 
   & .shadow {
+    z-index: 3;
     position: fixed;
     top: 0;
     right: 0;
