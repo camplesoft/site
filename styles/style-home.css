@@ -237,34 +237,41 @@ body {
       color: white;
     }
 
-    & table {
+    & .container {
       width: 100%;
-      max-width: 700px;
-      margin: 0 auto;
-      overflow: scroll;
-      border-collapse: collapse;
+      overflow-x: auto;
+      & table {
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+        border-collapse: collapse;
 
-      & thead {
-        background-color: var(--secundary-color);
+        & thead {
+          background-color: var(--secundary-color);
+
+          & tr > th {
+            padding: 10px;
+            vertical-align: middle;
+            border: 1px solid white;
+            font-weight: 600;
+          }
+        }
+
+        & tbody {
+          & tr:nth-child(even) {
+            background-color: rgba(128, 128, 128, 0.26);
+          }
+
+          & .precos {
+            text-align: right;
+          }
+        }
 
         & td {
-          font-weight: 600;
+          padding: 10px;
+          vertical-align: middle;
+          border: 1px solid white;
         }
-      }
-
-      & tbody {
-        & tr:nth-child(even) {
-          background-color: rgba(128, 128, 128, 0.26);
-        }
-
-        & .precos {
-          text-align: right;
-        }
-      }
-
-      & td {
-        padding: 10px;
-        border: 1px solid;
       }
     }
   }
