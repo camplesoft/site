@@ -639,7 +639,7 @@ class Footer extends HTMLElement {
 
     this.footer.innerHTML += `
       <div class="foot-footer">
-        <p>2024 <a href="cod">mariomakondambuta</a> | Todos direitos reservados</p>
+        <p>2024 <a href="cod">camplesoft</a> | Todos direitos reservados</p>
       </div>
     `;
 

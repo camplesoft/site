@@ -14,8 +14,8 @@ html {
 }
 
 :root {
-  --default-color: #252525;
-  --secundary-color: #038c8c;
+  --default-color: #0B1425;
+  --secundary-color: #F6C329;
 }
 
 ::-webkit-scrollbar {
@@ -28,7 +28,7 @@ html {
 }
 
 body {
-  background-color: #000000;
+  background-color: var(--default-color);
   overflow-x: hidden;
 
   & section {
